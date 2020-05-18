@@ -1,0 +1,42 @@
+<resources>
+
+    <style name="Theme.Base" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="backgroundColor">@color/colorWhite</item>
+        <item name="colorOnBackground">@color/colorBlack</item>
+        <item name="colorError">@color/colorRed</item>
+        <item name="colorOnError">@color/colorWhite</item>
+        <item name="android:statusBarColor">?attr/backgroundColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="floatingActionButtonStyle">@style/Widget.Fab</item>
+        <item name="actionModeStyle">@style/Widget.ActionMode</item>
+    </style>
+
+    <style name="Theme.Light" parent="Theme.Base" />
+
+    <style name="Theme.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="ThemeOverlay.Light.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar">
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style name="Theme.Light.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="Widget.Fab" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="tint">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Widget.ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="theme">@style/Theme.MaterialComponents.Light</item>
+        <item name="actionModeSplitBackground">@color/colorPrimary</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+</resources>

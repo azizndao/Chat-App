@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "265053716302",
+    "firebase_url": "https://chat-app-6d227.firebaseio.com",
+    "project_id": "chat-app-6d227",
+    "storage_bucket": "chat-app-6d227.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265053716302:android:c09aad87f621834025681f",
+        "android_client_info": {
+          "package_name": "com.zzizzand.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265053716302-fpkqdrlo8uoshvgtlf0v4fsjbqcuojdu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhFECYi_B_aH2hJ5tycdn0NBnS2O3_p2E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265053716302-fpkqdrlo8uoshvgtlf0v4fsjbqcuojdu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
